@@ -1,48 +1,4 @@
-// const express = require("express");
 
-// const app = express()
-
-// app.use(express.json())
-
-// let users = []
-
-// // get 
-
-// app.get("/",(req,res)=>{
-//     res.json({message:"hello"})
-// })
-
-// app.get("/users",(req,res)=>{
-//     res.json(users)
-// })
-
-// // post
-
-// app.post("/user",(req,res)=>{
-//     req.body.id=users.length + 1;
-//     users.push(req.body)
-//     res.json({message:"User Creates"})
-// })
-
-// // put
-// app.put("/user/:userId",(req,res)=>{
-//     let params = req.params.userId
-//     let index = users.findIndex((user)=>user.id == params)
-//     req.body.id = params
-//     users[index]=req.body
-//     res.json({message:"User Updated"})
-// })
-
-// // delete
-// app.delete("/user/:userId",(req,res)=>{
-//     let params = req.params.userId
-//         // users = users.filter((user)=>user.id != params)
-//         let index = users.findIndex((user)=>user.id == params)
-//         users.splice(index,1)
-//         res.json({message:"User Deleted"})
-// })
-
-// app.listen(3000);
 
 require("dotenv").config();
 const express = require("express");
